@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1602788337774.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4269689059",
+    "id" : "E9AD130",
+    "lastKnownWriteTime" : 1602790315,
+    "last_content_update" : 1602790315847,
+    "path" : "~/projects/FFL_project/main.R",
+    "project_path" : "main.R",
+    "properties" : {
+        "cursorPosition" : "16,13",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
