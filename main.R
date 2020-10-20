@@ -60,7 +60,21 @@ for(i in 1:nrow(season_template)){
 
 
 
-
+# creating the batch of seasons
+season_batch<-function(nSeasons, raw_data){
+  
+  team_data<-gather_team_stats(raw_data)
+  base_season<-set_week_template(raw_data)
+  season_block<-list()
+  
+  for(i in 1:nSeasons){
+    
+    season_block[[i]]<-make_season(base_season,team_data)
+    
+  }
+  
+  return(season_block)
+}
 
 
 
